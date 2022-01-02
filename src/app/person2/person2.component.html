@@ -1,11 +1,16 @@
-<h2>User</h2>
+
+<h1>Seeta</h1>
+
+
+
 <input type="text" #text> |
-<button (click)="send(text.value)">Send</button>
+<button (click) ="send(text.value)"> Send </button>
 <br>
-<p>{{msg}}</p>
-<br>
-<div class="cheat">
+<p> {{msg}}</p>
+
 <ul>
-    <li *ngFor="let item of msg">{{item}}</li>
+    <li *ngFor ="let item of msg">{{item}}</li>
 </ul>
-</div>
+
+
+
